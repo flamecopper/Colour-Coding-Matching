@@ -1,0 +1,57 @@
+Version: [32m1.11.8-static[0m
+OpenSSL 1.0.2k-dev  xx XXX xxxx
+[0m
+Testing SSL server [32mdemo.testfire.net[0m on port [32m443[0m
+
+  [1;34mTLS Fallback SCSV:[0m
+Server [31mdoes not[0m support TLS Fallback SCSV
+
+  [1;34mTLS renegotiation:[0m
+[32mSecure[0m session renegotiation supported
+
+  [1;34mTLS Compression:[0m
+Compression [32mdisabled[0m
+
+  [1;34mHeartbleed:[0m
+TLS 1.2 [32mnot vulnerable[0m to heartbleed
+TLS 1.1 [32mnot vulnerable[0m to heartbleed
+TLS 1.0 [32mnot vulnerable[0m to heartbleed
+
+  [1;34mSupported Server Cipher(s):[0m
+[32mPreferred[0m TLSv1.2  [32m128[0m bits  AES128-SHA256                
+Accepted  TLSv1.2  [32m128[0m bits  AES128-SHA                   
+Accepted  TLSv1.2  [32m256[0m bits  AES256-SHA256                
+Accepted  TLSv1.2  [32m256[0m bits  AES256-SHA                   
+Accepted  TLSv1.2  [32m128[0m bits  [33mRC4-SHA                      [0m
+Accepted  TLSv1.2  [32m112[0m bits  [33mDES-CBC3-SHA                 [0m
+Accepted  TLSv1.2  [32m128[0m bits  ECDHE-RSA-AES128-SHA256       Curve P-256 DHE 256
+Accepted  TLSv1.2  [32m128[0m bits  ECDHE-RSA-AES128-SHA          Curve P-256 DHE 256
+Accepted  TLSv1.2  [32m256[0m bits  ECDHE-RSA-AES256-SHA          Curve P-256 DHE 256
+Accepted  TLSv1.2  [32m128[0m bits  [33mRC4-MD5                      [0m
+[32mPreferred[0m TLSv1.1  [32m128[0m bits  AES128-SHA                   
+Accepted  TLSv1.1  [32m256[0m bits  AES256-SHA                   
+Accepted  TLSv1.1  [32m128[0m bits  [33mRC4-SHA                      [0m
+Accepted  TLSv1.1  [32m112[0m bits  [33mDES-CBC3-SHA                 [0m
+Accepted  TLSv1.1  [32m128[0m bits  ECDHE-RSA-AES128-SHA          Curve P-256 DHE 256
+Accepted  TLSv1.1  [32m256[0m bits  ECDHE-RSA-AES256-SHA          Curve P-256 DHE 256
+Accepted  TLSv1.1  [32m128[0m bits  [33mRC4-MD5                      [0m
+[32mPreferred[0m [33mTLSv1.0[0m  [32m128[0m bits  AES128-SHA                   
+Accepted  [33mTLSv1.0[0m  [32m256[0m bits  AES256-SHA                   
+Accepted  [33mTLSv1.0[0m  [32m128[0m bits  [33mRC4-SHA                      [0m
+Accepted  [33mTLSv1.0[0m  [32m112[0m bits  [33mDES-CBC3-SHA                 [0m
+Accepted  [33mTLSv1.0[0m  [32m128[0m bits  ECDHE-RSA-AES128-SHA          Curve P-256 DHE 256
+Accepted  [33mTLSv1.0[0m  [32m256[0m bits  ECDHE-RSA-AES256-SHA          Curve P-256 DHE 256
+Accepted  [33mTLSv1.0[0m  [32m128[0m bits  [33mRC4-MD5                      [0m
+[32mPreferred[0m [31mSSLv3[0m    [32m128[0m bits  [33mRC4-SHA                      [0m
+Accepted  [31mSSLv3[0m    [32m112[0m bits  [31mDES-CBC3-SHA                 [0m
+Accepted  [31mSSLv3[0m    [32m128[0m bits  [33mRC4-MD5                      [0m
+
+  [1;34mSSL Certificate:[0m
+Signature Algorithm: [33msha1WithRSA[0m
+RSA Key Strength:    2048
+
+Subject:  demo.testfire.net
+Issuer:   [31mdemo.testfire.net[0m
+
+Not valid before: [32mJul  1 09:54:37 2014 GMT[0m
+Not valid after:  [32mDec 22 09:54:37 2019 GMT[0m
